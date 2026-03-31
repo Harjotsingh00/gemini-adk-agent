@@ -23,7 +23,7 @@ class SummarizeTool:
 
 class SummarizerAgent:
     API_URL = ("https://generativelanguage.googleapis.com/v1beta"
-               "/models/gemini-1.5-flash:generateContent")
+               "/models/gemini-2.0-flash:generateContent")
 
     def __init__(self):
         self.api_key = os.environ.get("GEMINI_API_KEY", "")
